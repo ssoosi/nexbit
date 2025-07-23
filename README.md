@@ -17,8 +17,10 @@ Set TP/SL based on volatility or ATR (Average True Range).
 Optionally use 1-minute candles for precision.
 
 🧱 Architecture Outline
+
 🔁 Backend (Python)
-Use FastAPI or Flask
+
+Use FastAPI
 
 Connect to Bybit Testnet API via ccxt or pybit
 
@@ -41,6 +43,7 @@ Store logs in SQLite or JSON
 Manage keys via .env
 
 🌐 Frontend (React)
+
 Dashboard:
 
 Start/Stop bot
