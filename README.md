@@ -3,7 +3,9 @@
 
 
 ✅ Here's the high-level structure:
+
 🧠 ORB Strategy (Opening Range Breakout)
+
 Define an opening time window (e.g., first 15 minutes after market opens).
 
 Capture high and low during this range.
@@ -24,6 +26,7 @@ Run strategy as a scheduled job or live WebSocket handler
 
 REST endpoints:
 
+```bash
 /start-bot
 
 /stop-bot
@@ -31,6 +34,7 @@ REST endpoints:
 /get-status
 
 /get-trades
+~~~
 
 Store logs in SQLite or JSON
 
