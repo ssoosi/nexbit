@@ -34,7 +34,7 @@ REST endpoints:
 /get-status
 
 /get-trades
-~~~
+```
 
 Store logs in SQLite or JSON
 
